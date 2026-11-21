@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Materjalid | Kursuse nimi</title>
+  <meta name="description" content="Kursuse Kursuse nimi infoleht ja õppematerjalid.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="bar">
+      <a class="brand" href="index.html">Kursuse nimi</a>
+      <nav aria-label="Peamenüü">
+        <a href="index.html">Avaleht</a>
+        <a href="materjalid.html" aria-current="page">Materjalid</a>
+        <a href="ajakava.html">Ajakava</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1>Materjalid</h1>
+    <p class="lead">Kõik kursuse failid nädalate kaupa. Ava nädal, et näha selle materjale.</p>
+    <p class="file-note">Failid asuvad kaustas <code>failid</code>. Uue faili lisamisel lisa siia sama kujuga rida.</p>
+
+    <details id="nadal-1" open>
+      <summary>1. nädal: Teema nimi</summary>
+      <ul>
+        <li><a href="failid/nadal1-slaidid.pdf">Loengu slaidid (PDF)</a></li>
+        <li><a href="failid/nadal1-ulesanded.pdf">Ülesanded (PDF)</a></li>
+        <li><a href="https://example.com">Lisalugemine (väline link)</a></li>
+      </ul>
+    </details>
+
+    <details id="nadal-2">
+      <summary>2. nädal: Teema nimi</summary>
+      <ul>
+        <li><a href="failid/nadal2-slaidid.pdf">Loengu slaidid (PDF)</a></li>
+      </ul>
+    </details>
+
+    <details id="nadal-3">
+      <summary>3. nädal: Teema nimi</summary>
+      <ul>
+        <li>Materjalid lisanduvad.</li>
+      </ul>
+    </details>
+  </main>
+  <footer class="site-footer">
+    <div>Õppejõud: Eesnimi Perenimi, <a href="mailto:nimi@kool.ee">nimi@kool.ee</a>. Viimati uuendatud: 21.11.2026.</div>
+  </footer>
+</body>
+</html>
